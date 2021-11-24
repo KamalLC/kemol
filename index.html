@@ -2,18 +2,40 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>jQuery</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Form Validator</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Kamal Lamichhane</h1>
-    <button>Click Me</button>
-    <button>Click Me</button>
-    <button>Click Me</button>
-    <button>Click Me</button>
-    <button>Click Me</button>
+    <div class="container">
+      <form id="form" class="form" action="index.html" method="post">
+        <h2>Register Here</h2>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter your name here">
+          <small>Error Message</small>
+        </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="index.js" charset="utf-8"></script>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter your email here">
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password here">
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password2">Confirm Password</label>
+          <input type="text" id="password2" placeholder="Re-Enter your password">
+          <small>Error Message</small>
+        </div>
+        <button type="submit" name="button">Submit</button>
+      </form>
+    </div>
+
+  <script src="script.js"></script>
   </body>
 </html>
