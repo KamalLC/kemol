@@ -1,0 +1,31 @@
+*{
+	font-family: sans-serif;
+}
+
+body{
+	margin: 0px;
+	background-color: #000D6B;
+}
+
+#header{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	background-color: #1DB9C3;
+	margin-bottom: 1px;
+}
+
+#top{
+	height: auto;
+	width: 100%;
+	background-color: #66BFBF;
+}
+
+.option{
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 100px 0 0;
+	color: #181D31;
+}
+

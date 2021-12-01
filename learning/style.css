@@ -1,0 +1,29 @@
+
+*{
+	font-family: sans-serif;
+}
+
+body{
+	margin: 0px;
+	background-color: #22577A;
+}
+
+#header{
+	background-color: #11324D;
+	text-align: center;
+	font-size: 40px;
+};
+
+.nav{
+	font: 100px;
+	height: 80%;
+	width: 100%;
+}
+/*
+div ul li{
+	display: inline;
+}*/
+
+a{
+	text-decoration: none;
+}
