@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+	color: white;
+	font-size: 13px;
+}
+body{
+	background-color: #2D46B9;
+
+}
+.parent{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.box{
+	background-color: #0F044C;
+	width:400px;
+	height: 500px;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+input:focus{
+	outline: none;
+}
+
+.header{
+	width:inherit;
+	height: 30%;
+	font-size: 50px;
+	text-align: center;
+	line-height: 190px;
+}
+
+.details{
+	width:inherit;
+	height: 50%;
+	text-align: center;
+}
+
+.smallIcon{
+	height: 30px;
+	background-color: transparent;
+}
+
+.details label{
+	font-size: 13px;
+}
+
+.text_input{
+	width: 80%;
+	height: 30px;
+	border-radius: 5px;
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+	line-height: 50px;
+}
+.line{
+	width: 80%;
+	height:1px;
+	padding:0;
+	margin: 0;
+	background-color: white; 
+	margin-left: 10%;
+}
+
+.checkbox{
+	float: left;
+	margin-left: 10%;
+	height: 15px;
+}
+.remember{
+	float: left;
+	margin-left: 5px;
+}
+
+a{
+	text-decoration: underline;
+}
+.forgot_password{
+	float: right;
+	margin-right: 10%;
+}
+.button{
+	width:90px;
+	/*height: 30px;*/
+	color: black;
+	font-size: 20px;
+	border-radius: 5px;
+	border:none;
+}
+
+.switch{
+	width:inherit;
+	height: 15%;
+	text-align: center;
+}
+.break{
+	flex-basis: 100%;
+	height: 0;
+	background-color: red;
+}
+
+/*.footer{
+	width: 100vw;
+	height: 10%;
+	text-align: center;
+	object-position: bottom;
+}
+*/
+
+.copyright{
+	margin-top: 0px;
+	padding: 0;
+}

@@ -8,22 +8,37 @@ body{
 	background-color: #22577A;
 }
 
-#header{
+.header{
 	background-color: #11324D;
 	text-align: center;
 	font-size: 40px;
 };
 
+.xyz{
+	background-color: red;
+}
+
 .nav{
-	font: 100px;
+	background-color: #DAD0C2;
+	text-align: center;
+	/*font-size: 10px;*/
 	height: 80%;
 	width: 100%;
 }
-/*
-div ul li{
-	display: inline;
-}*/
 
+li{
+	display: inline;
+	width: 100%;
+	/*text-align: center;*/
+	margin: 30px;
+
+}
+
+ul li ul li{
+	display: block;
+	visibility: hidden;
+	margin: 0px;
+}
 a{
 	text-decoration: none;
 }

@@ -28,4 +28,16 @@ body{
 	padding: 0 100px 0 0;
 	color: #181D31;
 }
+a{
+	text-decoration: none;
+}
 
+.login{
+	display: inline-block;
+	float: right;
+	background-color: #79B4B7;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	text-align: center;
+}
