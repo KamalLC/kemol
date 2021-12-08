@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.nav-bar{
+	/*height: 40px;*/
+	width: 100%;
+	/*background-color: yellow;*/
+	text-align: center;
+	font-size: 26px;
+	padding: 12px;
+}
+
+ul{
+	list-style: none;
+}
+ul li{
+	display: inline;
+
+}
+#abt{
+	margin-right: 12px;
+	margin-left: 12px;
+}
+#log{
+	margin-left: 12px;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.imageSection{
+	height: 500px;
+	width: 100%;
+	background-color: red;
+	background: url('./river.jpg');
+	background-size: 100% 100%;
+	/*padding-top: 180px;*/
+	color: #FFFFFF;
+	font-size: 30px;
+	/*text-align: center;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.picture-description{
+	height: 300px;
+	width: 100%;
+	/*background-color: green;*/
+	display: flex;
+}
+.footer{
+	height: 240px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #FFFFFF;
+}
+
+.logo{
+	width: 30px;
+	margin: 10px;
+}

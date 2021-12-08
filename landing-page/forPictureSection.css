@@ -1,0 +1,37 @@
+.picture{
+	height: inherit;
+	width: 40%;
+	/*background-color: yellow;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.description{
+	height: inherit;
+	width: 60%;
+	/*background-color: pink;*/
+	padding: 50px 10px;
+}
+.follow-profile{
+	height: 200px;
+	width: 100%;
+	/*background-color: tomato;*/
+	display: flex;
+}
+.follow-us{
+	height: inherit;
+	width: 44%;
+	/*background-color: coral;*/
+}
+.profile{
+	height: inherit;
+	width: 56%;
+	/*background-color: #00aaff;*/
+}
+.copyrightSection{
+	height: 40px;
+	width: 100%;
+	background-color: gray;
+	text-align: center;
+	color: #FFFFFF;
+}
