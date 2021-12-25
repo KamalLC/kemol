@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+div{
+	width: 500px;
+}
+/*.firstTable{
+	position: relative;
+}
+
+.secondTable{
+	position: relative;
+	margin-top: 40px;
+}*/
+
+.thirdTable{
+	position: absolute;
+	margin-left: 500px;
+	top:0px;
+}
+
+.footer{
+	/*visibility: hidden;*/
+	/*margin-top: 800px;*/
+}
+
+tr:nth-child(even){
+	background-color: lightgray;
+}
+
+tr:hover{
+	background-color: red;
+}
+
+
+ul{
+	margin-left: 40px;
+	list-style-image: url('https://img.icons8.com/material-rounded/24/000000/sleepy-eyes.png');
+}
