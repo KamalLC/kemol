@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SGPA Calculator</title>
+	<link rel="stylesheet" type="text/css" href="sgpaCalculator.css">
+	<script type="text/javascript" src="sgpaCalculator.js"></script>
+</head>
+<body>
+	<div class="parent">
+		<div class="main">
+			<table border="solid">
+				<tr>
+					<td colspan="2">Second Semester IT</td>
+				</tr>
+				<!-- <tr>
+					<td>Subjects:</td>
+					<td>Grade</td>
+				</tr> -->
+				<tr>
+					<td>Mathematics II</td>
+					<td>
+						<select id="math" onchange="getMathMark()">
+							<option disabled selected>Grade</option>
+							<option value="a">A</option>
+							<option value="aMinus">A-</option>
+							<option value="bPlus">B+</option>
+							<option value="b">B</option>
+							<option value="bMinus">B-</option>
+							<option value="cPlus">C+</option>
+					S		<option value="c">C</option>
+							<option value="cMinus">C-</option>
+							<option value="dPlus">D+</option>
+							<option value="d">D</option>
+							<option value="f">F</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+				<tr>
+					<td>Network Theory</td>
+					<td>
+						<select id="nt" onchange="getNtMark()">
+							<option disabled selected>Grade</option>
+							<option value="a">A</option>
+							<option value="aMinus">A-</option>
+							<option value="bPlus">B+</option>
+							<option value="b">B</option>
+							<option value="bMinus">B-</option>
+							<option value="cPlus">C+</option>
+							<option value="c">C</option>
+							<option value="cMinus">C-</option>
+							<option value="dPlus">D+</option>
+							<option value="d">D</option>
+							<option value="f">F</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+				<tr>
+					<td>MFCS</td>
+					<td>
+						<select id="mfcs" onchange="getMfcsMark()">
+							<option disabled selected>Grade</option>
+							<option value="a">A</option>
+							<option value="aMinus">A-</option>
+							<option value="bPlus">B+</option>
+							<option value="b">B</option>
+							<option value="bMinus">B-</option>
+							<option value="cPlus">C+</option>
+					S		<option value="c">C</option>
+							<option value="cMinus">C-</option>
+							<option value="dPlus">D+</option>
+							<option value="d">D</option>
+							<option value="f">F</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+				<tr>
+					<td>Electronic Devices</td>
+					<td>
+						<select id="ed" onchange="getEdMark()">
+							<option disabled selected>Grade</option>
+							<option value="a">A</option>
+							<option value="aMinus">A-</option>
+							<option value="bPlus">B+</option>
+							<option value="b">B</option>
+							<option value="bMinus">B-</option>
+							<option value="cPlus">C+</option>
+					S		<option value="c">C</option>
+							<option value="cMinus">C-</option>
+							<option value="dPlus">D+</option>
+							<option value="d">D</option>
+							<option value="f">F</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+				<tr>
+					<td>Drawing</td>
+					<td>
+						<select id="drawing" onchange="getDrawingMark()">
+							<option disabled selected>Grade</option>
+							<option value="a">A</option>
+							<option value="aMinus">A-</option>
+							<option value="bPlus">B+</option>
+							<option value="b">B</option>
+							<option value="bMinus">B-</option>
+							<option value="cPlus">C+</option>
+					S		<option value="c">C</option>
+							<option value="cMinus">C-</option>
+							<option value="dPlus">D+</option>
+							<option value="d">D</option>
+							<option value="f">F</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+				<tr>
+					<td>C++</td>
+					<td>
+						<select id="cpp" onchange="getCppMark()">
+							<option disabled selected>Grade</option>
+							<option value="a">A</option>
+							<option value="aMinus">A-</option>
+							<option value="bPlus">B+</option>
+							<option value="b">B</option>
+							<option value="bMinus">B-</option>
+							<option value="cPlus">C+</option>
+					S		<option value="c">C</option>
+							<option value="cMinus">C-</option>
+							<option value="dPlus">D+</option>
+							<option value="d">D</option>
+							<option value="f">F</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+
+			</table>
+			<!-- <label>Second Semester IT</label> -->
+		</div>
+		<div class="final">
+			<label>Your <b>SGPA</b> is: <span id="gpa">NaN</span></label>
+		</div>
+	</div>
+	
+</body>
+</html>
