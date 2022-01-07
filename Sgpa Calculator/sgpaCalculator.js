@@ -1,5 +1,5 @@
 const mathCreditHour=3, ntCreditHour=3, mfcsCreditHour=3, edCreditHour=3;
-const drawingCreditHour=1, cppCreditHour=2;
+const drawingCreditHour=2, cppCreditHour=3;
 var mathMarks=0, ntMarks=0, mfcsMarks=0, edMarks=0, drawingMarks=0, cppMarks=0;
 
 function gradeValue(grade){
