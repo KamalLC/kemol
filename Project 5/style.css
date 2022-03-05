@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main{ 
+	width: 100vw;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 50px repeat(2, 250px) 50px;
+	grid-gap: 3px;
+	grid-template-areas: "header header header header header"
+						"image1 image2 image2 image2 image3"
+						"image1 image4 image5 image6 image3"
+						"footer footer footer footer footer";
+
+}
+
+#div0{
+	background-color: purple;
+	grid-area: header;
+	line-height: 50px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+li{
+	list-style: none;
+}
+
+.list{
+	width: 100%;
+}
+
+.list li{
+	display: inline-block;
+	width:  150px;
+	position: relative;
+}
+
+.subList{
+	display: none;
+	background-color: orange;
+	width: 100%;
+	position: absolute;
+}
+
+.subList li{
+	display: block;
+	width: 100%;
+}
+
+.list li:hover{
+	background-color: green;
+}
+
+.subList li:hover{
+	background-color: red;
+	cursor: pointer;
+}
+
+.list li:hover ul{
+	display: block;
+}
+
+#div1{
+	background-color:red ;
+	grid-area: image1;
+	background-image: url(../images/cat.jpg);
+	background-repeat: no-repeat;
+	background-size: 120% 120%;
+	background-position:center; 
+}
+#div2{
+	background-color:blue ;
+	grid-area: image2;
+	background-image: url(../images/forest4.jpg);
+	background-size: 100% 100%;
+	background-position:center; 
+}
+#div3{
+	background-color:yellow ;
+	grid-area: image3;
+	background-image: url(../images/rock.jpg);
+	background-size: 100% 100%;
+	background-position:center; 
+}
+#div4{
+	background-color:green ;
+	grid-area: image4;
+	background-image: url(../images/tiger.jpg);
+	background-size: 100% 100%;
+	background-position:center; 
+}
+#div5{
+	background-color:tomato ;
+	grid-area: image5;
+	background-image: url(../images/fox.webp);
+	background-size: 100% 100%;
+	background-position:center; 
+}
+#div6{
+	background-color:orange ;
+	grid-area: image6;
+	background-image: url(../images/tiger2.jpg);
+	background-size: 100% 100%;
+	background-position:center; 
+}
+#div7{
+	background-color:#abcdef ;
+	grid-area: footer;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+@media (max-width: 613px){
+	.main{
+		display: block;
+	}
+
+	.squares{
+		width: 100vw;
+		height: 100vh;
+	}
+	#div0, #div7{
+		height:  auto;
+	}
+
+	#div0{
+		position: absolute;
+		width:  auto;
+		right:  0;
+	}
+
+	.subList li{
+		/*position: absolute;*/
+	}
+
+	.list li, .subList li{
+		display: block;
+	}
+
+	.list li:hover ul{
+		display: none;
+	}
+
+	.list li:focus ul{
+		display: block;
+	}
+}
